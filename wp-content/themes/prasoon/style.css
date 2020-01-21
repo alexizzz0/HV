@@ -1,0 +1,203 @@
+/*
+Theme Name: Prasoon
+Theme URI: https://www.spiraclethemes.com/prasoon-free-wordpress-theme/
+Author: Spiracle Themes
+Author URI: https://www.spiraclethemes.com
+Description: Prasoon is the user friendly, modern theme with rich customization possibilities,suitable for almost any small business website. With its clean and responsive design, Prasoon is the next free theme for your wordpress website. This theme has all the features like custom menu, header background, custom widgets etc. Prasoon is SEO friendly and the best coding standards have been used in the development.
+Version: 1.9.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: right-sidebar,custom-menu,featured-images,theme-options,portfolio,photography,food-and-drink,blog,custom-colors,custom-logo,flexible-header,threaded-comments
+Text Domain: prasoon
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav > li > a {
+  padding: 10px !important;
+  color: #fff !important;
+}
+
+.navbar-default {
+  z-index: 1000 !important;
+}
+
+.hv-red-text {
+  color: #e60000 !important;
+}
+
+#topnavbar {
+  background-color: #fff;
+  z-index: 1;
+}
+
+.menu-nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  transition: all 0.2s ease 0s;
+}
+
+#nav {
+
+}
+
+#nav ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .5s ease-out;
+}
+
+#nav li a:hover:not(.active) {
+  background-color: #fbfbfb;
+  color: #777 !important;
+}
+
+.menu-btn.active {
+  border-bottom: 2px solid #e60000;
+  padding-bottom: 2px !important;
+}
+
+.menu-section-title {
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.menu-section-title::after {
+  content:"";
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5em;
+  border-top: 1px solid #e60000;
+  margin: 2px 50px 0 50px;
+}
+
+.menu-section-items {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.menu-section-items > li {
+  list-style: none;
+  margin: 20px 0 40px 0;
+}
+
+.menu-item-name {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 17px;
+  color: #e60000;
+  border-bottom: 2px dotted #ccc;
+}
+
+.menu-item-price {
+  float: right;
+  font-weight: 600;
+  color: #e60000;
+  margin-top: -20px;
+}
+
+.notes {
+  color: #e60000;
+  font-size: small;
+  font-weight: 300;
+}
+
+.notes span {
+  font-weight: 600;
+}
+
+.spacer {
+  height: 50px;
+  margin: 50px 0 50px 0;
+  border-bottom: 1px solid #ccc;
+}
+.appetizers {
+  height: 100px;
+}
+
+.maincourse {
+  height: 100px;
+}
+
+#fromthegarden {
+  height: 100px;
+}
+
+#sandwiches {
+  height: 100px;
+}
+
+#desserts {
+  height: 100px;
+}
+
+#kids {
+  height: 100px;
+}
+
+#sides {
+  height: 100px;
+}
+
+#mexican {
+  height: 100px;
+}
+
+#brunch {
+  height: 100px;
+}
+
+#pizza {
+  height: 100px;
+}
+
+#kids {
+  height: 100px;
+}
+
+@media all and (max-width: 1199px) {
+  #topnavbar {
+    display: none;
+  }
+  section.desktop {
+    display: none;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  section.mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding: 5px !important;
+    font-size: 12px !important;
+    color: #fff !important;
+  }
+}
+@media only screen and (max-width: 2560px) and (min-width: 768px) {
+  .navbar-default .navbar-nav>li>a {
+    color: #fff !important;
+  }
+}

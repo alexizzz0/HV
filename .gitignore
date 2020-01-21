@@ -22,3 +22,7 @@ node_modules/
 *.sql
 *.sqlite
 .DS_Store
+.remote-sync.json
+robots.txt
+.htaccess
+wp-config.php
